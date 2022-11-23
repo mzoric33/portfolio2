@@ -20,7 +20,7 @@ const Hero = (props: Props) => {
       <BackgroundCircles />
       <img
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src="https://avatars.githubusercontent.com/u/104790636?v=4"
+        src="/me2.jpg"
         alt="Marin Zorić"
       />
       <div className="z-20">
