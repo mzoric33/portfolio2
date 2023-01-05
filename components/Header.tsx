@@ -32,15 +32,12 @@ function Header({}: Props) {
         transition={{ duration: 1.5 }}
         className="flex flex-row items-center"
       >
-        <SocialIcon
-          className="cursor-pointer"
-          network="email"
-          fgColor="gray"
-          bgColor="transparent"
-        />
-        <p className="hidden md:inline-flex text-sm text-gray-400">
-          GET IN TOUCH
-        </p>
+        <SocialIcon network="email" fgColor="gray" bgColor="transparent" />
+        <a href="#contact">
+          <p className="hidden md:inline-flex text-sm text-gray-400">
+            GET IN TOUCH
+          </p>
+        </a>
       </motion.div>
     </header>
   );
