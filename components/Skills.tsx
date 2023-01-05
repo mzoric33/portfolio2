@@ -5,6 +5,16 @@ import Skill from "./Skill";
 type Props = {};
 
 const Skills = (props: Props) => {
+  const skills = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Wordpress",
+    "TypeScript",
+    "Python",
+    "Git",
+  ];
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -16,17 +26,12 @@ const Skills = (props: Props) => {
         Skills
       </h3>
       <h3 className="absolute uppercase top-36 tracking-[3px] text-gray-500 text-sm">
-        Hover over a skill for current profficiency
+        Here are some of the skills that I aquired:
       </h3>
       <div className="grid grid-cols-3 sm:grid-cols-4 mt-32 sm:mt-10 gap-5">
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
+        {skills.map((skill) => (
+          <Skill skill={skill} />
+        ))}
       </div>
     </motion.div>
   );
