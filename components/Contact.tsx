@@ -21,23 +21,23 @@ const Contact = () => {
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Contact
       </h3>
-      <div className="flex flex-col space-y-10">
-        <h4 className="text-4xl font-semibold text-center">
-          I have got just what you need. {""}
+      <div className="flex flex-col space-y-20">
+        <h4 className="text-xl md:text-2xl lg:text-4xl font-semibold text-center mt-10">
+          I have what you need. {""}
           <span className="underline decoration-[#F7AB0A]/50">Lets talk.</span>
         </h4>
-        <div className="space-y-10">
+        <div className="flex flex-col md:flex-row space-x-10">
           <div className="flex items-center space-x-5 justify-center">
             <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">+385989942760</p>
+            <p className="text-xl md:text-2xl">+385989942760</p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
             <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">zoricmarin4@gmail.com</p>
+            <p className="text-xl md:text-2xl">zoricmarin4@gmail.com</p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
             <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">Đakovo</p>
+            <p className="text-xl md:text-2xl">Đakovo</p>
           </div>
         </div>
         <form

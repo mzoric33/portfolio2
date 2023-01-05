@@ -22,8 +22,8 @@ const Projects = () => {
               transition={{ duration: 1.2 }}
               viewport={{ once: true }}
               src="/mi.jpg"
-              width="666px"
-              height="375px"
+              width="300px"
+              height="300px"
             />
             <div className="space-y-10 px-0 md:px-10 max-w-6xl">
               <h4 className="text-4xl font-semibold text-center">
