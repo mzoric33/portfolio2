@@ -21,7 +21,7 @@ const Education = (props: Props) => {
           where="PMF Split"
           when="2013 - 2015"
           logo="/pmf.png"
-          skills={["html-logo", "css-logo", "python", "c++", "c"]}
+          skills={["html", "css", "python", "c++", "c"]}
           points={[
             "Introduction to programming",
             "Comparing multiple programming languages",
@@ -33,7 +33,7 @@ const Education = (props: Props) => {
           where="University College Algebra"
           when="24/11/2021 - 21/04/2022"
           logo="/algebra.svg"
-          skills={["html-logo", "css-logo", "wordpress", "photoshop"]}
+          skills={["html", "css", "wordpress", "photoshop"]}
           points={[
             "Great introduction to web development",
             "Basics of Photoshop, HTML, CSS and Wordpress",
@@ -45,7 +45,7 @@ const Education = (props: Props) => {
           where="Udemy"
           when="05/2022 - 08/2022"
           logo="/udemy.png"
-          skills={["js-logo", "git", "github"]}
+          skills={["javascript", "git", "github"]}
           points={[
             "Everything about Javascript, from basics to advanced features",
             "Fundamentals, DOM and events, OOP and Functional programming",
@@ -57,7 +57,7 @@ const Education = (props: Props) => {
           where="Udemy"
           when="08/2022 - 11/2022"
           logo="/udemy.png"
-          skills={["react", "ts-logo", "redux", "nextjs"]}
+          skills={["react", "typescript", "redux", "nextjs"]}
           points={[
             "Detailed React course, with many projects included",
             "Hooks, State managment(Redux), React Router",

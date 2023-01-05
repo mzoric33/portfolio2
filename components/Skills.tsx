@@ -12,7 +12,7 @@ const Skills = (props: Props) => {
     "React",
     "Wordpress",
     "TypeScript",
-    "Python",
+    "NextJS",
     "Git",
   ];
   return (
