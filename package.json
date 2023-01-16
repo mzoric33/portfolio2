@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.13",
@@ -18,6 +19,7 @@
     "firebase": "^9.15.0",
     "framer-motion": "^7.6.9",
     "next": "13.0.4",
+    "next-firebase-hosting-rewrites": "^0.0.9",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.41.5",

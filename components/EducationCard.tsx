@@ -27,18 +27,19 @@ const EducationCard = (props: Props) => {
         <h4 className="text-2xl font-light uppercase">{props.name}</h4>
         <p className="font-bold text-2xl mt-1">{props.where}</p>
         <div className="flex space-x-2 my-2">
-          {props.skills.map((skill) => (
+          {props.skills.map((skill, i) => (
             <img
               className="h-10 w-10 rounded-full"
               src={`/${skill}.png`}
               alt={skill}
+              key={i}
             />
           ))}
         </div>
         <p className="uppercase py-5 text-gray-300">{props.when}</p>
         <ul className="list-disc space-y-4 ml-5 text-lg">
-          {props.points.map((point) => (
-            <li>{point}</li>
+          {props.points.map((point, i) => (
+            <li key={i}>{point}</li>
           ))}
         </ul>
       </div>

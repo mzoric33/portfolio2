@@ -50,6 +50,7 @@ const Projects = () => {
               src={projects[i].image}
               width="500px"
               height="500px"
+              key={i}
             />
             <div className="space-y-10 px-0 md:px-10 max-w-6xl text-center">
               <h4 className="text-4xl font-semibold text-center">

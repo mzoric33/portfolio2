@@ -29,8 +29,8 @@ const Skills = (props: Props) => {
         Here are some of the skills that I aquired:
       </h3>
       <div className="grid grid-cols-3 sm:grid-cols-4 mt-32 sm:mt-10 gap-5">
-        {skills.map((skill) => (
-          <Skill skill={skill} />
+        {skills.map((skill, i) => (
+          <Skill skill={skill} key={i} />
         ))}
       </div>
     </motion.div>
