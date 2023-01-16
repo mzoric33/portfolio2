@@ -1,25 +1,32 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { SocialIcon } from "react-social-icons";
 
 const Projects = () => {
   const projects = [
     {
-      name: "DLM Sorting",
-      image: "/TRVL2.png",
+      name: "Travel Agency homepage",
+      image: "/TRVL1.png",
       description:
-        "This project was made to solve a real-life problem that occured at a local company. They used to sort pallets in to a truck manually using Microsoft Word and Excel. To speed that process up, I created a web application that sorts the pallets for you after entering measurements. Technologies used are ReactJS and BricksJS.",
+        "Landing page for an imaginary travel agency created to practice front-end skills and react-router.",
+      link: "https://github.com/mzoric33",
+      github: "https://github.com/mzoric33/travel_react_website",
     },
     {
       name: "Netflix Clone",
       image: "/Netflix-clone.png",
       description:
         "This clone of an existing web application was used to practice my front-end skills. With this project I polished my ReactJS, Redux and React-router skills.",
+      link: "https://netflix-clone-50c03.web.app",
+      github: "https://github.com/mzoric33/netflix_clone",
     },
     {
-      name: "Travel Agency homepage",
-      image: "/TRVL1.png",
+      name: "DLM Sorting",
+      image: "/TRVL2.png",
       description:
-        "Homepage for an imaginary travel agency created to practice front-end skills and react-router.",
+        "This project was made to solve a real-life problem that occured at a local company. They used to sort pallets in to a truck manually using Microsoft Word and Excel. To speed that process up, I created a web application that sorts the pallets for you after entering measurements. Technologies used are ReactJS and BricksJS.",
+      link: "https://github.com/mzoric33",
+      github: "https://github.com/mzoric33",
     },
   ];
   return (
@@ -44,13 +51,23 @@ const Projects = () => {
               width="500px"
               height="500px"
             />
-            <div className="space-y-10 px-0 md:px-10 max-w-6xl">
+            <div className="space-y-10 px-0 md:px-10 max-w-6xl text-center">
               <h4 className="text-4xl font-semibold text-center">
                 <span className="underline decoration-[#F7AB0A]/50">
                   Case Study {i + 1} of {projects.length}:
                 </span>
                 {""} {projects[i].name}
               </h4>
+              <SocialIcon
+                url={projects[i].link}
+                fgColor="gray"
+                bgColor="transparent"
+              />
+              <SocialIcon
+                url={projects[i].github}
+                fgColor="gray"
+                bgColor="transparent"
+              />
               <p className="text-lg text-center md:text-left max-w-3xl">
                 {projects[i].description}
               </p>
