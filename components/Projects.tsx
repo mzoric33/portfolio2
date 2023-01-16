@@ -9,7 +9,7 @@ const Projects = () => {
       image: "/TRVL1.png",
       description:
         "Landing page for an imaginary travel agency created to practice front-end skills and react-router.",
-      link: "https://github.com/mzoric33",
+      link: "https://trvl-28044.web.app/",
       github: "https://github.com/mzoric33/travel_react_website",
     },
     {
